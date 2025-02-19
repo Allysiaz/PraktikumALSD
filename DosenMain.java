@@ -8,9 +8,11 @@ public class DosenMain {
 
         Dosen dosen2 = new Dosen("MRY", "Mariyana", false, 2023, "Matematika");
         dosen2.tampilkanInformasi();
+        System.out.println();
 
         Dosen dosen3 = new Dosen("VA:", "Vivin Ayu Lestari", true, 2021, "Algoritma");
         dosen3.tampilkanInformasi();
         dosen3.hitungMasaKerja();
+        System.out.println();
     }
 }

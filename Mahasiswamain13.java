@@ -11,15 +11,18 @@ public class Mahasiswamain13 {
         mhs1.ubahKelas("SI 2K");
         mhs1.updateIpk(3.60);
         mhs1.tampilkanInformasi();
+        System.out.println();
 
         //Proses Instansiasi
         Mahasiswa13 mhs2 = new Mahasiswa13("Annisa Nabila", "2141720160", 3.25, "TI 2L");
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
+        System.out.println();
 
         //Proses Instansiasi
         Mahasiswa13 mhsNadine = new Mahasiswa13("Nadine Jullietta Allysia", "244107060099", 3.80, "SIB 1D");
         mhsNadine.updateIpk(4.00);
         mhsNadine.tampilkanInformasi();
+        System.out.println();
     }
 }
