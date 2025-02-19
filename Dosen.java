@@ -6,17 +6,18 @@ public class Dosen {
     String bidangKeahlian;
 
     void tampilkanInformasi() {
-        System.out.println("ID Dosen: " + idDosen);
-        System.out.println("Nama Dosen: " + nama);
-        System.out.println("Status Dosen: " + (statusAktif? "Aktif" : "Tidak Aktif"));
-        System.out.println("Tahun Bergabung: " + tahunBergabung);
+        System.out.println("==== INFORMASI DOSEN ====");
+        System.out.println("ID Dosen             : " + idDosen);
+        System.out.println("Nama Dosen           : " + nama);
+        System.out.println("Status Dosen         : " + (statusAktif? "Aktif" : "Tidak Aktif"));
+        System.out.println("Tahun Bergabung      : " + tahunBergabung);
         System.out.println("Bidang Keahlian Dosen: " + bidangKeahlian);
     }
 
     void setStatusAktif(boolean status) {
-        if (status = true) {
-            System.out.println(false);
-        }
+        statusAktif = status;
+        System.out.println("Status dosen telah diubah menjadi " + (statusAktif? "Aktif" : "Tidak aktif"));
+        System.out.println();
     }
 
     void hitungMasaKerja() {
@@ -28,6 +29,8 @@ public class Dosen {
 
     void ubahKeahlian(String bidangBaru){
         bidangKeahlian = bidangBaru;
+        System.out.println("Bidang berhasil diubah");
+        System.out.println();
     }
 
     public Dosen (String idDos, String nama, boolean status, int thnGabung, String bidang){

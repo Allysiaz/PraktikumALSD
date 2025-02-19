@@ -12,19 +12,20 @@ public class MataKuliah {
     }
 
     public MataKuliah() {
-        
+
     }
 
     void tampilkanInformasi(){
-        System.out.println("Kode Mata Kuliah: " + kodeMk);
-        System.out.println("Nama: " + nama);
-        System.out.println("SKS: " + sks);
+        System.out.println("==== Informasi Mata Kuliah ====");
+        System.out.println("Kode Mata Kuliah    : " + kodeMk);
+        System.out.println("Nama                : " + nama);
+        System.out.println("SKS                 : " + sks);
         System.out.println("Jumlah Jam Pertemuan: " + jumlahJam);
+        System.out.println();
     }
 
     void ubahSks(int sksBaru){
         sks = sksBaru;
-        System.out.println("SKS telah diubah");
     }
 
     void tambahJam(int jam){
@@ -37,7 +38,6 @@ public class MataKuliah {
         } else {
             System.out.println("Jumlah Jam lebih kecil dari Jam Pengurang");
         }
-        
+        System.out.println();
     }
-
 }

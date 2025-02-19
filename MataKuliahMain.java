@@ -5,6 +5,9 @@ public class MataKuliahMain {
         mk1.nama = "Matematika Dasar";
         mk1.sks = 2;
         mk1.jumlahJam = 4;
+
+        mk1.tampilkanInformasi();
+        mk1.kurangiJam(2);
         System.out.println();
 
         MataKuliah mk2 = new MataKuliah("DSR", "Dasar Pemograman", 2, 6);
